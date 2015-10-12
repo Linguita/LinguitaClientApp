@@ -33,12 +33,6 @@ select {
     background: transparent;
 }
 
-border 0 {
-    outline: 0;
-    padding: 0;
-    margin: 0;
-}
-
 .clearfix:after {
     clear: both;
     content: " ";
@@ -98,16 +92,6 @@ body {
     outline: none;
 }
 
-h1 font-size 2em font-weight400 line-height2em font-family 'Open Sans',
-sans-serif color#fbaf41,
-h2 font-size 1.8em font-weight400 line-height1.8em font-family 'Open Sans',
-sans-serif color#3D88F7,
-h3 font-size 1.7em font-weight600 line-height3.5em font-family 'Open Sans',
-h4 font-size 1.4em font-weight400 line-height1.4em font-family 'Open Sans',
-h5 font-size 1.2em font-weight400 line-height1.3em font-family 'Open Sans',
-h6 font-size 0.5em font-weight400 line-height1em font-family 'Open Sans',
-p font-size 1.4em font-weight400 line-height1.6em font-family 'Open Sans',
-sans-serif color #9d9fa2,
 a,
 li {
     text-decoration: none;
