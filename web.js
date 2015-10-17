@@ -5,5 +5,5 @@ var app = express();
 
 app.use(morgan('dev'));
 app.use(gzippo.staticGzip("" + __dirname + "/dist"));
-app.listen(process.env.PORT || 6000);
+app.listen(process.env.PORT || 9090);
 console.log("Listening...")
