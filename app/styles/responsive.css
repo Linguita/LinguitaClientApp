@@ -6,13 +6,13 @@
     #videos .thumb {
         float: none;
         margin: 0 auto;
-        max-width: 178px;
+        max-width: 100%;
     }
     .navbar ul li {
 		font-size: 1.2em;
 	}
 	.jumbotron h1 {
-		font-size: 3em;
+		font-size: 3.4em;
 		letter-spacing: -4px;
 	}
 	.navbar-default .navbar-nav>li>a {
@@ -25,7 +25,7 @@
  /* ---------------------------------------------------------------------- */
 @media handheld,only screen and (max-width: 768px) {
     .container {
-        max-width: 730px;
+        max-width: 100%;
     }
     .header,
     .footer {
@@ -75,13 +75,14 @@
         margin-top: 15px;
         border-top: 1px solid #3D88F7 !important;
     }
+
 }
 /* ---------------------------------------------------------------------- 
 /*	Mobile Version 600px
  /* ---------------------------------------------------------------------- */
 @media handheld,only screen and (max-width: 600px) {
     #logo img {
-        max-width: 150px;
+        max-width: 100%;
     }
 }
 /* ---------------------------------------------------------------------- 
@@ -90,7 +91,7 @@
 
 @media handheld,only screen and (max-width: 480px) {
 	.jumbotron h1 {
-		font-size: 2em;
-		letter-spacing: -4px;
+		font-size: 0.1em;
+		letter-spacing: -3px;
 	}
 }
