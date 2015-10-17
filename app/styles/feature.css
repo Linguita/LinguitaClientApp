@@ -1,0 +1,51 @@
+.feature {
+	border-bottom: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+}
+
+.video iframe {
+    border: none;
+    width: 100%;
+}
+
+
+.feature h1 {
+	color: #004080;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	font-weight: 400;
+	line-height: 1em;
+	margin: 20px 0;
+}
+
+.feature p {
+	color: #222222;
+    text-align: justify;
+}
+
+.feature ul {
+	margin: 15px 0;
+}
+.feature ul li a{
+	color: #222222;
+	font-size: 1.1em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.feature ul li a:hover{
+	color: #004080;
+	margin-left: 2px;
+}
+
+.feature ul li i {
+	color: #004080;
+	margin-right: 10px;
+}	
+
+.feature img {
+	width: 100%;
+}
+
+
+

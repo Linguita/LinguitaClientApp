@@ -1,279 +1,54 @@
-html,
-body,
-div,
-span,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-a,
-img,
-small,
-sub,
-b,
-dl,
-dd,
-dt,
-ul,
-li,
-label,
-article,
-details,
-footer,
-header,
-menu,
-nav,
-input,
-textarea,
-select {
-    background: transparent;
-}
-
 .clearfix:after {
-    clear: both;
-    content: " ";
-    display: block;
-    font-size: 0;
-    height: 0;
-    line-height: 0;
-    visibility: hidden;
-    width: 0;
-}
+	clear: both;
+	content: " ";
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+}	
 
 ul li {
-    list-style: none;
+	list-style:none;
 }
 
-a,
-a:hover,
-a:active {
-    outline: 0 !important;
+h1 { font-size: 2em; font-weight:400; line-height:2em; font-family: 'Raleway', sans-serif;; color:#fbaf41; }
+
+h2 { font-size: 1.7em; font-weight:400; line-height:1.8em; font-family: 'Raleway', sans-serif; color:#3D88F7; }
+
+h3 { font-size: 1.5em; font-weight:600; font-family: 'Raleway', sans-serif; color:#3D88F7; }
+
+h4 { font-size: 1.4em; font-weight:400; line-height:1.4em; font-family: 'Raleway', sans-serif; color:#FAFFFD }
+
+h5 { font-size: 1.2em; font-weight:400; line-height:1.3em; font-family: 'Raleway', sans-serif; color:#fbaf41; }
+
+h6 { font-size: 0.5em; font-weight:400; line-height:1em; font-family: 'Raleway', sans-serif; color:#fbaf41; }
+
+p { font-size: 1.2em; font-weight:400;  line-height:1.6em; font-family: 'Raleway', sans-serif;  color: #4A4C4E }
+
+a:hover {
+	color: #18488f;
+	text-decoration: none;
 }
 
-p {
-    font-size: 14px;
+a:focus, a:hover, a:focus, .btn:focus {
+	outline: none;
 }
-
-.inline-list {
-    display: block;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.inline-list li {
-    float: left;
+i {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
 }
 
 .container {
     max-width: 1207px;
 }
 
-
-/* ------------------------------------------------------------------------------- */
-
-
-/*  General
-/* ------------------------------------------------------------------------------- */
-
-html,
-body {
-    background: #fff;
-    color: #2d3e52;
-    font-family: 'Raleway', sans-serif;
-    font-size: 80%;
-    height: 100%;
-    line-height: 1;
-    width: 100%;
-    outline: none;
-}
-
-a,
-li {
-    text-decoration: none;
-    outline: none;
-    -webkit-transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease, opacity 0.3s ease-in-out, outline 0.3s ease;
-    -moz-transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease, opacity 0.3s ease-in-out, outline 0.3s ease;
-    -ms-transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease, opacity 0.3s ease-in-out, outline 0.3s ease;
-    -o-transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease, opacity 0.3s ease-in-out, outline 0.3s ease;
-    transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease, opacity 0.3s ease-in-out, outline 0.3s ease;
-}
-
-a:hover {
-    color: #18488f;
-    text-decoration: none;
-}
-
-a:focus,
-a:hover {
-    outline: none;
-}
-
-i {
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-}
-
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-body {
-    padding: 0;
-}
-
-
-/* Everything but the jumbotron gets side spacing for mobile first views */
-
-.header,
-.marketing,
-.footer {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-
-/* Custom page header */
-
-.header {
-    border-bottom: 1px solid #e5e5e5;
-    margin-bottom: 10px;
-}
-
-
-/* Make the masthead heading the same height as the navigation */
-
-.header h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
-}
-
-
-/* Custom page footer */
-
-.footer {
-    padding-top: 19px;
-    color: #777;
-    border-top: 1px solid #e5e5e5;
-}
-
-.container-narrow > hr {
-    margin: 30px 0;
-}
-
-
-/* Main marketing message and sign up button */
-
-.jumbotron {
-    text-align: center;
-    border-bottom: 1px solid #e5e5e5;
-}
-
-.jumbotron .btn {
-    font-size: 21px;
-    padding: 14px 24px;
-}
-
-
-/* Supporting marketing content */
-
-.marketing {
-    margin: 40px 0;
-}
-
-.marketing p + h4 {
-    margin-top: 28px;
-}
-
-header {
-    background: none repeat scroll 0 0 #fff;
-    border-bottom: 3px solid #00a3b4;
-}
-
-header .navbar {
-    padding: 20px 0;
-    margin: 0;
-}
-
-.navbar-default {
-    background: transparent;
-    border: none;
-    padding: 0;
-}
-
-.navbar-brand {
-    line-height: 1;
-    padding: 0;
-}
-
-.navbar-nav {
-    float: right;
-    margin: 0;
-}
-
-.navbar-nav > li {
-    float: left;
-    font-size: 15px;
-}
-
-.navbar-nav > li > a {
-    margin-top: 11px;
-    padding: 7px 15px;
-    margin-left: 12px;
-}
-
-.navbar-default .navbar-nav > li > a {
-    text-transform: uppercase;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-    color: #00a3b4;
-}
-
-.navbar-default .navbar-nav > li > a:focus {
-    border: 1px solid #00a3b4;
-    color: #00a3b4;
-}
-
-.navbar-fixed-top {
-    top: 0;
-    border-width: 0 0 3px !important;
-}
-
-
-/* Responsive: Portrait tablets and up */
-
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 730px;
-    }
-    /* Remove the padding we set earlier */
-    .header,
-    .marketing,
-    .footer {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    /* Space out the masthead */
-    .header {
-        margin-bottom: 30px;
-    }
-    /* Remove the bottom border on the jumbotron for visual effect */
-    .jumbotron {
-        border-bottom: 0;
-    }
+.generic {
+    padding: 120px 30px;
 }

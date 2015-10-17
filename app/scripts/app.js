@@ -15,21 +15,30 @@ angular
         'ngMessages',
         'ngResource',
         'ngRoute',
-        'ngSanitize'
+        'ngSanitize',
+        'modNavbar'
     ])
     .config(function($routeProvider) {
         $routeProvider
-            .when('/', {
-                templateUrl: 'views/main.html',
-                controller: 'MainCtrl',
-                controllerAs: 'main'
+            .when('/home', {
+                templateUrl: 'views/home.html',
+                navitem: true,
+                controller: false,
+                name: 'home'
             })
-            .when('/about', {
-                templateUrl: 'views/about.html',
-                controller: 'AboutCtrl',
-                controllerAs: 'about'
+/*            .when('/feature', {
+                templateUrl: 'views/features.html',
+                controller: false,
+                name: 'feature',
+                navitem: true
             })
+            .when('/more', {
+                templateUrl: 'views/more.html',
+                controller: false,
+                name: 'more',
+                navitem: true
+            })*/
             .otherwise({
-                redirectTo: '/'
+                redirectTo: '/home'
             });
     });
