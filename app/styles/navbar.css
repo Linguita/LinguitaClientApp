@@ -1,11 +1,12 @@
 header {
-    background: none repeat scroll 0 0 #fff;
-    /*border-bottom: 1px solid #3D88F7 !important;*/
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #E0E0E0 !important;
+    border-top: 1px solid #3D88F7 !important;
 }
 
 header .navbar {
-    padding: 25px 0;
-    margin: 0;
+    padding: 20px 0;
+    margin:0;
 }
 
 .navbar-default {
@@ -19,9 +20,17 @@ header .navbar {
     padding: 0;
 }
 
-.navbar-nav {
-    float: right;
-    margin: 0;
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background: transparent;
+    color: #004080;
+}
+
+.navbar-default .navbar-nav>li>a{
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+    color: #959595;
+    font-size: 1.2em;
+    text-transform: uppercase;
 }
 
 .navbar-nav > li {
@@ -58,6 +67,6 @@ header .navbar {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 19px;
-    border-top: 1px solid #004080;
-    background-color: #004080;
+    border-top: 1px solid #fff;
+    background: #fff;
 }

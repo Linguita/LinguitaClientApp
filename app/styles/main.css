@@ -13,6 +13,14 @@ ul li {
 	list-style:none;
 }
 
+html,body{
+		background:#fff;
+		color:#2d3e52;
+		font-size: 90%;	
+		line-height: 1;
+		width:100%;	
+		outline: none;
+}	
 h1 { font-size: 2em; font-weight:400; line-height:2em; font-family: 'Raleway', sans-serif;; color:#fbaf41; }
 
 h2 { font-size: 1.7em; font-weight:400; line-height:1.8em; font-family: 'Raleway', sans-serif; color:#3D88F7; }
@@ -45,10 +53,7 @@ i {
 	line-height: 1;
 }
 
-.container {
-    max-width: 1207px;
-}
-
 .generic {
     padding: 120px 30px;
 }
+
